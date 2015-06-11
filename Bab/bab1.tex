@@ -1,0 +1,77 @@
+\chapter{Pendahuluan} \label{chap:Pendahuluan}
+
+\section{Latar Belakang}
+\label{sec:latarbelakang}
+
+Otentikasi adalah proses untuk menentukan keaslian identitas dari entitas saat akan mengakses sumber daya sebuah sistem\cite{stamp2011information}. Entitas yang diotentikasi dapat berupa manusia atau pengguna sistem. Sistem yang hendak diakses dapat berupa media sosial, \textit{email}, \textit{electronic banking}, dan sebagainya. Proses otentikasi menentukan apakah seseorang berhak atau tidak untuk mengakses sumber daya sistem tersebut.
+
+Salah satu dari metode otentikasi adalah dengan menggunakan \textit{password}. \textit{Password} adalah sekumpulan huruf, angka, dan simbol yang sifatnya rahasia\cite{stamp2011information}. \textit{Password} digunakan untuk mengakses sumber daya sebuah sistem. Saat pengguna sistem hendak mengakses sistem, pengguna harus memasukkan \textit{password} untuk menunjukkan bahwa pengguna memiliki hak untuk mengakses sistem.
+Hal tersebut yang membuat \textit{password} menjadi sebuah hal yang penting dan harus dijaga kerahasiaannya.
+
+Namun, seorang pengguna biasanya tidak hanya membutuhkan sumber daya dari satu sistem saja. Pengguna membutuhkan akses ke banyak sistem. Akses pada sebuah sistem membutuhkan sebuah \textit{password}. Semakin bertambahnya akses ke sistem yang berbeda-beda, semakin bertambah pula \textit{password} yang harus dimiliki.
+
+Hal ini dapat menimbulkan masalah jika ada \textit{password} yang hilang atau dilupakan oleh pengguna. Pengguna akan kehilangan akses ke sistem tersebut. Beberapa sistem memang memiliki mekanisme untuk mengembalikan password yang hilang dengan menyediakan sebuah pertanyaan keamanan yang harus dijawab oleh pengguna. Namun, mekanisme ini bisa menyulitkan pengguna karena pengguna harus mengingat seluruh jawaban dari pertanyaan keamanan untuk setiap \textit{password}.
+
+Oleh sebab itu, dibutuhkan suatu mekanisme baru untuk bisa mengingat dan mengembalikan banyak \textit{password} ini. Pada penelitian ini, dikembangan mekanisme untuk mengembalikan $n$ \textit{password} dengan membuat $n$ pertanyaan. Dengan menjawab sebagian pertanyaan, $k$ pertanyaan, dari $n$ pertanyaan, maka $n$ \textit{password} dapat dikembalikan. Mekanisme ini menggunakan metode \textit{secret sharing}.
+
+\textit{Secret sharing} adalah metode membagi pesan atau informasi menjadi beberapa bagian. Bagian-bagian tersebut disebut \textit{share} dan setiap bagian dibagikan kepada beberapa partisipan. Untuk memperoleh kembali informasi, dibutuhkan masing-masing \textit{share}. Terdapat beberapa metode \textit{secret sharing} yang dapat digunakan untuk membagi informasi. Dalam penelitian ini, metode \textit{secret sharing} yang digunakan adalah \textit{secret sharing} Shamir. Metode \textit{secret sharing} Shamir adalah metode \textit{secret sharing} yang membagi informasi menjadi beberapa \textit{share} dan untuk mengembalikan informasi hanya dibutuhkan beberapa \textit{share} saja.
+
+Metode secret sharing Shamir ini diaplikasikan untuk membagi \textit{password} menjadi beberapa \textit{share}. Setiap \textit{password} yang dibagi diasosiasikan dengan satu pertanyaan keamanan. Dengan menggunakan metode \textit{secret sharing} Shamir, pengguna cukup menjawab sebagian dari pertanyaan keamanan untuk mengembalikan $n$ \textit{password}.
+
+Untuk menjaga kerahasiaan \textit{password} dan jawaban dari setiap pertanyaan keamanan, metode secret sharing dikombinasikan dengan enkripsi dan fungsi \textit{hash}. Pada penelitian ini, teknik enkripsi yang digunakan adalah \textit{Data Encryption Standard} dan algoritma fungsi hash yang digunakan adalah \textit{Secure Hashing Algorithm} 512.
+
+Dalam penelitian ini, dibahas mengenai cara kerja metode \textit{secret sharing} Shamir untuk mengembalikan $n$ \textit{password} dengan membuat $n$ pertanyaan keamanan. Selain itu, dilakukan analisis dari kualitas pertanyaan keamanan yang dibuat dan pengaruhnya terhadap metode \textit{secret sharing} Shamir dalam mengembalikan banyak \textit{password}.
+
+\section{Rumusan Masalah}
+\label{sec:rumusanmasalah}
+
+Berdasarkan latar belakang yang sudah dibuat, maka permasalahan yang dibahas dalam penelitian ini adalah:
+\begin{itemize}
+	\item Bagaimana mengembalikan banyak \textit{password} dengan metode \textit{secret sharing} Shamir?
+	\item Bagaimana cara membangun perangkat lunak pengingat \textit{password} yang mengimplementasikan metode \textit{secret sharing} Shamir?
+	\item Bagaimana menilai kualitas dari metode \textit{secret sharing} Shamir lewat pertanyaan keamanan yang dibuat?
+\end{itemize}
+
+\section{Tujuan}
+\label{sec:tujuan}
+
+Berdasarkan rumusan masalah yang sudah ditetapkan, maka tujuan dari penelitian ini adalah:
+\begin{itemize}
+	\item Mempelajari bagaimana metode \textit{secret sharing} Shamir dapat mengembalikan banyak \textit{password}.
+	\item Membangun perangkat lunak pengingat \textit{password} yang mengimplementasikan metode \textit{secret sharing} Shamir.
+	\item Melakukan pengujian terhadap perangkat lunak pengingat \textit{password} yang dibangun.
+\end{itemize}
+
+\section{Batasan Masalah}
+\label{sec:batasanmasalah}
+
+Batasan masalah pada penelitian ini adalah setiap pertanyaan keamanan dijawab dengan jawaban yang relevan.
+
+\section{Metodologi Penelitian}
+\label{sec:metodologi penelitian}
+
+Metodologi dalam penelitian ini berupa:
+\begin{itemize}
+	\item Melakukan studi literatur untuk mempelajari hal-hal yang diperlukan dalam penggunaan dan implementasi metode \textit{secret sharing} Shamir.
+	\item Membangun perangkat lunak yang mengimplementasikan metode \textit{secret sharing} Shamir.
+	\item Melakukan pengujian pada perangkat lunak yang sudah dibangun.
+\end{itemize}
+
+\section{Sistematika Pembahasan}
+\label{sec:sistematikapembahasan}
+
+Sistematika pembahasan dalam penelitian ini berupa:
+\begin{itemize}
+	\item Bab Pendahuluan
+	\\Bab 1 berisi latar belakang, rumusan masalah, tujuan penelitian, batasan masalah, metodologi penelitian, dan sistematika pembahasan.
+	\item Bab Dasar Teori
+	\\Bab 2 berisi mengenai teori-teori dasar, antara lain kriptografi, \textit{Data Encryption Standard}, \textit{Secure Hashing Algorithm} 512, otentikasi, \textit{password}, eliminasi Gauss-Jordan, \textit{secret sharing}, probabilitas, dan entropi.
+	\item Bab Analisis
+	\\Bab 3 berisi analisis meliputi studi kasus penerapan metode \textit{secret sharing} Shamir, analisis proses dalam bentuk \textit{flow chart}, dan pemaparan diagram-diagram yang dibutuhkan dalam membangun perangkat lunak.
+	\item Bab Perancangan
+	\\Bab 4 berisi tahapan penjelasan rancangan perangkat lunak meliputi diagram kelas rinci, deskripsi dan fungsi setiap kelas yang dibangun, dan rancangan tampilan perangkat lunak.
+	\item Bab Implementasi dan Pengujian
+	\\Bab 5 berisi tahapan implementasi pada perangkat lunak meliputi tampilan antarmuka perangkat lunak, pengujian perangkat lunak, dan kesimpulan.
+	\item Bab Kesimpulan dan Saran
+	\\Bab 6 berisi kesimpulan serta beberapa saran untuk pengembangan lebih lanjut dari penelitian yang dilakukan dan perangkat lunak yang dibangun.
+\end{itemize}

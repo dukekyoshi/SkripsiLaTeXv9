@@ -1,0 +1,259 @@
+%_____________________________________________________________________________
+%=============================================================================
+% data.tex v6 (13-04-2015) \ldots dibuat oleh Lionov - Informatika FTIS UNPAR
+%
+% Perubahan pada versi 6 (13-04-2015)
+% - Perubahan untuk data-data ``template" menjadi lebih generik dan menggunakan
+%	tanda << dan >>
+%
+% Perubahan pada versi sebelumnya
+% 	versi 5 (10-11-2013)
+% 	- Perbaikan pada memasukkan bab : tidak perlu menuliskan apapun untuk 
+%	  memasukkan seluruh bab (bagian V)
+% 	- Perbaikan pada memasukkan lampiran : tidak perlu menuliskan apapun untuk
+%	  memasukkan seluruh lampiran atau -1 jika tidak memasukkan apapun
+%	versi 4 (21-10-2012)
+%	- Data dosen dipindah ke dosen.tex agar jika ada perubahan/update data dosen
+%   mahasiswa tidak perlu mengubah data.tex
+%	- Perubahan pada keterangan dosen	
+% 	versi 3 (06-08-2012)
+% 	- Perubahan pada beberapa keterangan 
+% 	versi 2 (09-07-2012):
+% 	- Menambahkan data judul dalam bahasa inggris
+% 	- Membuat bagian khusus untuk judul (bagian VIII)
+% 	- Perbaikan pada gelar dosen
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN -
+%=============================================================================
+% Ini adalah file data (data.tex)
+% Masukkan ke dalam file ini, data-data yang diperlukan oleh template ini
+% Cara memasukkan data dijelaskan di setiap bagian
+% Data yang WAJIB dan HARUS diisi dengan baik dan benar adalah SELURUHNYA !!
+% Hilangkan tanda << dan >> jika anda menemukannya
+%=============================================================================
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN I
+%=============================================================================
+% Tambahkan package2 lain yang anda butuhkan di sini
+%=============================================================================
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{amsmath}
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN II
+%=============================================================================
+% Mode dokumen: menetukan halaman depan dari dokumen, apakah harus mengandung 
+% prakata/pernyataan/abstrak dll (termasuk daftar gambar/tabel/isi) ?
+% - kosong : tidak ada halaman depan sama sekali (untuk dokumen yang 
+%            dipergunakan pada proses bimbingan)
+% - cover : cover saja tanpa daftar isi, gambar dan tabel
+% - sidang : cover, daftar isi, gambar, tabel (IT: UTS-UAS Seminar 
+%			 dan UTS TA)
+% - sidang_akhir : mode sidang + abstrak + abstract
+% - final : seluruh halaman awal dokumen (untuk cetak final)
+% Jika tidak ingin mencetak daftar tabel/gambar (misalkan karena tidak ada 
+% isinya), edit manual di baris 439 dan 440 pada file main.tex
+%=============================================================================
+% \mode{kosong}
+% \mode{cover}
+% \mode{sidang}
+%\mode{sidang_akhir}
+\mode{final} 
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN III
+%=============================================================================
+% Line numbering: penomoran setiap baris, otomatis di-reset setiap berganti
+% halaman
+% - yes: setiap baris diberi nomor
+% - no : baris tidak diberi nomor, otomatis untuk mode final
+%=============================================================================
+\linenumber{no}
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN IV
+%=============================================================================
+% Linespacing: jarak antara baris 
+% - single: opsi yang disediakan untuk bimbingan, jika pembimbing tidak
+%            keberatan (untuk menghemat kertas)
+% - onehalf: default dan wajib (dan otomatis) jika ingin mencetak dokumen
+%            final/untuk sidang.
+% - double : jarak yang lebih lebar lagi, jika pembimbing berniat memberi 
+%            catatan yg banyak di antara baris (dianjurkan untuk bimbingan)
+%=============================================================================
+%\linespacing{single}
+\linespacing{onehalf}
+%\linespacing{double}
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN V
+%=============================================================================
+% Bab yang akan dicetak: isi dengan angka 1,2,3 s.d 9, sehingga bisa digunakan
+% untuk mencetak hanya 1 atau beberapa bab saja
+% Jika lebih dari 1 bab, pisahkan dengan ',', bab akan dicetak terurut sesuai 
+% urutan bab.
+% Untuk mencetak seluruh bab, kosongkan parameter (i.e. \bab{ })  
+% Catatan: Jika ingin menambahkan bab ke-10 dan seterusnya, harus dilakukan 
+% secara manual
+%=============================================================================
+\bab{ }
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN VI
+%=============================================================================
+% Lampiran yang akan dicetak: isi dengan huruf A,B,C s.d I, sehingga bisa 
+% digunakan untuk mencetak hanya 1 atau beberapa lampiran saja
+% Jika lebih dari 1 lampiran, pisahkan dengan ',', lampiran akan dicetak 
+% terurut sesuai urutan lampiran
+% Jika tidak ingin mencetak lampiran apapun, isi dengan -1 (i.e. \lampiran{-1})
+% Untuk mencetak seluruh mapiran, kosongkan parameter (i.e. \lampiran{ })  
+% Catatan: Jika ingin menambahkan lampiran ke-J dan seterusnya, harus 
+% dilakukan secara manual
+%=============================================================================
+\lampiran{ }
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN VII
+%=============================================================================
+% Data diri dan skripsi/tugas akhir
+% - namanpm: Nama dan NPM anda, penggunaan huruf besar untuk nama harus benar
+%			 dan gunakan 10 digit npm UNPAR, PASTIKAN BAHWA BENAR !!!
+%			 (e.g. \namanpm{Jane Doe}{1992710001}
+% - judul : Dalam bahasa Indonesia, perhatikan penggunaan huruf besar, judul
+%			tidak menggunakan huruf besar seluruhnya !!! 
+% - tanggal : isi dengan {tangga}{bulan}{tahun} dalam angka numerik, jangan 
+%			  menuliskan kata (e.g. AGUSTUS) dalam isian bulan
+%			  Tanggal ini adalah tanggal dimana anda akan melaksanakan sidang 
+%			  ujian akhir skripsi/tugas akhir
+% - pembimbing: isi dengan pembimbing anda, lihat daftar dosen di file dosen.tex
+%				jika pembimbing hanya 1, kosongkan parameter kedua 
+%				(e.g. \pembimbing{\JND}{  } ) , \JND adalah kode dosen
+% - penguji : isi dengan para penguji anda, lihat daftar dosen di file dosen.tex
+%				(e.g. \penguji{\JHD}{\JCD} ) , \JND dan \JCD adalah kode dosen
+%
+%=============================================================================
+\namanpm{Samuel Christian}{2011730002}	%hilangkan tanda << & >>
+\tanggal{12}{6}{2015}			%hilangkan tanda << & >>
+\pembimbing{\TAB}{}     
+%Lihat singkatan pembimbing anda di file dosen.tex, hilangkan tanda << & >>
+\penguji{\JNH}{\PAS} 		
+%Lihat singkatan penguji anda di file dosen.tex, hilangkan tanda << & >>
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN VIII
+%=============================================================================
+% Judul dan title : judul bhs indonesia dan inggris
+% - judulINA: judul dalam bahasa indonesia
+% - judulENG: title in english
+% PERHATIAN: - langsung mulai setelah '{' awal, jangan mulai menulis di baris 
+%			   bawahnya
+%			 - Gunakan \texorpdfstring{\\}{} untuk pindah ke baris baru
+%			 - Judul TIDAK ditulis dengan menggunakan huruf besar seluruhnya !!
+%			 - Gunakan perintah \texorpdfstring{\\}{} untuk baris baru
+%=============================================================================
+
+\judulINA{Analisa Metode Pengingat \textit{Password} Dengan \textit{Secret Sharing} Shamir}
+
+\judulENG{Password Reminder Analysis With Shamir's Secret Sharing}
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN IX
+%=============================================================================
+% Abstrak dan abstract : abstrak bhs indonesia dan inggris
+% - abstrakINA: abstrak bahasa indonesia
+% - abstrakENG: abstract in english
+% PERHATIAN: langsung mulai setelah '{' awal, jangan mulai menulis di baris 
+%			 bawahnya
+%=============================================================================
+
+\abstrakINA{Otentikasi adalah proses untuk menentukan keaslian identitas dari entitas saat akan mengakses sumber daya sebuah sistem. Entitas yang diotentikasi dapat berupa manusia atau pengguna sistem. Sistem yang hendak diakses dapat berupa media sosial, \textit{email}, \textit{electronic banking}, dan sebagainya.
+
+Salah satu metode otentikasi adalah \textit{password}. Kebutuhan akan sumber daya tidak hanya bergantung pada satu sistem saja. Karena itu, untuk memenuhi kebutuhan akan sumber daya, diperlukan akses ke banyak sistem. Dengan diperlukannya akses ke banyak sistem, maka membutuhkan banyak \textit{password} untuk masing-masing sistem.
+
+Pada penelitian ini, dikembangkan mekanisme untuk mengembalikan $n$ \textit{password} dengan menyediakan $n$ pertanyaan keamanan. Pengguna sistem hanya perlu menjawab sebagian dari $n$ pertanyaan keamanan untuk mengembalikan $n$ \textit{password}. Mekanisme ini akan menggunakan metode \textit{secret sharing} Shamir dengan membagi setiap \textit{password} menjadi beberapa bagian dan membuat pertanyaan keamanan untuk masing-masing \textit{password}.
+
+Untuk mengetahui apakah mekanisme mengembalikan $n$ \textit{password} dengan menyediakan $n$ pertanyaan keamanan dengan menggunakan metode \textit{secret sharing} Shamir lebih baik dalam melindungi \textit{password}, maka dilakukan pembangunan perangkat lunak yang mengimplementasikan \textit{secret sharing} Shamir dan pengujian terhadap perangkat lunak yang dibangun. Pengujian dengan metode survei juga dilakukan untuk mengetahui pengaruh dari pertanyaan keamanan terhadap metode \textit{secret sharing} Shamir dalam mengembalikan $n$ \textit{password} ini.
+
+Selain itu, untuk menjaga kerahasiaan password dan jawaban dari masing-masing pertanyaan keamanan, metode \textit{secret sharing} Shamir dikombinasikan dengan enkripsi dan fungsi \textit{hash}. Teknik enkripsi yang digunakan adalah \textit{Data Encryption Standard} dan algoritma fungsi \textit{hash} yang digunakan adalah \textit{Secure Hashing Algorithm} 512.
+
+Berdasarkan hasil pengujian, pertanyaan keamanan memiliki pengaruh terhadap mekanisme mengembalikan banyak \textit{password}. Dengan membuat pertanyaan keamanan yang tepat, \textit{password} bisa dengan mudah dikembalikan oleh pemilik \textit{password} dan juga bisa mempersulit pihak selain pemilik \textit{password} untuk mengembalikan \textit{password}.}
+
+\abstrakENG{Authentication is the process of confirming the truth of an entity trying to access system resources. An entity can be human or system user and a system can be a social media system, email system, electronic banking system, and etc.
+
+Password is one of the techniques to authenticate an entity. The need of access to system resources does not rely on just a certain system only. To fulfill the need of access to system resources, an entity need to have many access to a lot of systems. By this way, an entity must have password for each system he/she has access to.
+
+In this research, a new mechanism is developed to retrieve $n$ passwords by creating $n$ security questions. This mechanism uses secret sharing Shamir to divide the each password into shares and creating $n$ security questions for $n$ passwords.
+
+To find out if this developed mechanism that retrieve $n$ passwords by providing $n$ security questions using secret sharing Shamir performs better in protecting passwords, we develop a software which implementing secret sharing Shamir. We also have some survey tests to find out security questions effect on secret sharing Shamir in retrieving $n$ passwords.
+
+Moreover, to ensure the secrecy of the passwords and the secrecy of each security question, secret sharing Shamir is combined with encryption technique and cryptographic hash function. Data Encryption Standard is used as encryption technique and Secure Hashing Algorithm 512 is used as cryptographic hash function.
+
+According to the test results, security questions have influence of retrieving many passwords mechanism. By creating appropriate security questions, passwords can be easily retrieved by passwords' owner and can make other parties difficult in retrieving passwords.} 
+
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN X
+%=============================================================================
+% Kata-kata kunci dan keywords : diletakkan di bawah abstrak (ina dan eng)
+% - kunciINA: kata-kata kunci dalam bahasa indonesia
+% - kunciENG: keywords in english
+%=============================================================================
+\kunciINA{Otentikasi, \textit{Password}, Pertanyaan Keamanan, \textit{Secret Sharing} Shamir, Enkripsi, Fungsi \textit{Hash}}
+
+\kunciENG{Authentication, Password, Security Questions, Shamir's Secret Sharing, Encryption, Cryptographic Hash Function}
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN XI
+%=============================================================================
+% Persembahan : kepada siapa anda mempersembahkan skripsi ini ...
+%=============================================================================
+\untuk{Dipersembahkan untuk diri sendiri}
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN XII
+%=============================================================================
+% Kata Pengantar: tempat anda menuliskan kata pengantar dan ucapan terima 
+% kasih kepada yang telah membantu anda bla bla bla ....  
+%=============================================================================
+\prakata{\lipsum[3]}
+%=============================================================================
+
+%_____________________________________________________________________________
+%=============================================================================
+% 								BAGIAN XIII
+%=============================================================================
+% Tambahkan hyphen (pemenggalan kata) yang anda butuhkan di sini 
+%=============================================================================
+\hyphenation{ma-te-ma-ti-ka}
+\hyphenation{fi-si-ka}
+\hyphenation{tek-nik}
+\hyphenation{in-for-ma-ti-ka}
+%=============================================================================
+
+
+%=============================================================================

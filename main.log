@@ -1,0 +1,1230 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.21)  11 JUN 2015 16:33
+entering extended mode
+**main.tex
+("D:\Skripsi\Template Skripsi FTIS v9\main.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
+, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
+ kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
+ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\bahasai.ldf"
+Language: bahasa 2008/03/15 v1.0l Bahasa Indonesia support from the babel system
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\abstract\abstract.sty"
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip43
+\absleftindent=\skip44
+\absrightindent=\skip45
+\absparindent=\skip46
+\absparsep=\skip47
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\chappg\chappg.sty"
+Package: chappg 2006/05/09 v2.1b page numbering by chapter number pages by chapter (or other unit)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count90
+)
+\etb@tempcnta=\count91
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count93
+\Gm@cntv=\count94
+\c@Gm@tempcnt=\count95
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks17
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count96
+\lst@gtempboxa=\box28
+\lst@token=\toks18
+\lst@length=\count97
+\lst@currlwidth=\dimen114
+\lst@column=\count98
+\lst@pos=\count99
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count100
+\lst@lineno=\count101
+\lst@maxwidth=\dimen117
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count102
+\lst@skipnumbers=\count103
+\lst@framebox=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count104
+\mult@box=\box30
+\multicol@leftmargin=\dimen118
+\c@unbalance=\count105
+\c@collectmore=\count106
+\doublecol@number=\count107
+\multicoltolerance=\count108
+\multicolpretolerance=\count109
+\full@width=\dimen119
+\page@free=\dimen120
+\premulticols=\dimen121
+\postmulticols=\dimen122
+\multicolsep=\skip57
+\multicolbaselineskip=\skip58
+\partial@page=\box31
+\last@line=\box32
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count110
+\c@finalcolumnbadness=\count111
+\last@try=\dimen123
+\multicolovershoot=\dimen124
+\multicolundershoot=\dimen125
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\multicol@sort@counter=\count112
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count113
+\output=\toks19
+\linenoprevgraf=\count114
+\linenumbersep=\dimen126
+\linenumberwidth=\dimen127
+\c@linenumber=\count115
+\c@pagewiselinenumber=\count116
+\c@LN@truepage=\count117
+\c@internallinenumber=\count118
+\c@internallinenumbers=\count119
+\quotelinenumbersep=\dimen128
+\bframerule=\dimen129
+\bframesep=\dimen130
+\bframebox=\box56
+LaTeX Info: Redefining \\ on input line 3056.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count120
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip59
+\aftertitleunit=\skip60
+\ttl@plus=\dimen131
+\ttl@minus=\dimen132
+\ttl@toksa=\toks20
+\titlewidth=\dimen133
+\titlewidthlast=\dimen134
+\titlewidthfirst=\dimen135
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip61
+\cftbeforetoctitleskip=\skip62
+\cftaftertoctitleskip=\skip63
+\cftbeforepartskip=\skip64
+\cftpartnumwidth=\skip65
+\cftpartindent=\skip66
+\cftbeforechapskip=\skip67
+\cftchapindent=\skip68
+\cftchapnumwidth=\skip69
+\cftbeforesecskip=\skip70
+\cftsecindent=\skip71
+\cftsecnumwidth=\skip72
+\cftbeforesubsecskip=\skip73
+\cftsubsecindent=\skip74
+\cftsubsecnumwidth=\skip75
+\cftbeforesubsubsecskip=\skip76
+\cftsubsubsecindent=\skip77
+\cftsubsubsecnumwidth=\skip78
+\cftbeforeparaskip=\skip79
+\cftparaindent=\skip80
+\cftparanumwidth=\skip81
+\cftbeforesubparaskip=\skip82
+\cftsubparaindent=\skip83
+\cftsubparanumwidth=\skip84
+\cftbeforeloftitleskip=\skip85
+\cftafterloftitleskip=\skip86
+\cftbeforefigskip=\skip87
+\cftfigindent=\skip88
+\cftfignumwidth=\skip89
+\c@lofdepth=\count121
+\c@lotdepth=\count122
+\cftbeforelottitleskip=\skip90
+\cftafterlottitleskip=\skip91
+\cftbeforetabskip=\skip92
+\cfttabindent=\skip93
+\cfttabnumwidth=\skip94
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count123
+\decimalpart=\count124
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen136
+\Hy@linkcounter=\count125
+\Hy@pagecounter=\count126
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count127
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
+Package hyperref Info: Option `unicode' set `true' on input line 4319.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count128
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen137
+\Fld@menulength=\count129
+\Field@Width=\dimen138
+\Fld@charsize=\dimen139
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count130
+\c@Item=\count131
+\c@Hfootnote=\count132
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count133
+\c@bookmark@seq@number=\count134
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip95
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\emptypage\emptypage.sty"
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen140
+\captionmargin@=\dimen141
+\captionwidth=\dimen142
+\caption@tempdima=\dimen143
+\caption@indent=\dimen144
+\caption@parindent=\dimen145
+\caption@hangindent=\dimen146
+)
+\c@ContinuedFloat=\count135
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip96
+\enit@outerparindent=\dimen147
+\enit@toks=\toks21
+\enit@inbox=\box58
+\enitdp@description=\count136
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count137
+\rotFPtop=\skip97
+\rotFPbot=\skip98
+\rot@float@box=\box59
+\rot@mess@toks=\toks22
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count138
+\c@ALG@rem=\count139
+\c@ALG@nested=\count140
+\ALG@tlm=\skip99
+\ALG@thistlm=\skip100
+\c@ALG@Lnr=\count141
+\c@ALG@blocknr=\count142
+\c@ALG@storecount=\count143
+\c@ALG@tmpcounter=\count144
+\ALG@tmplength=\skip101
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+\@float@every@algorithm=\toks23
+\c@algorithm=\count145
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+Package hyperref Info: Option `unicode' set `true' on input line 310.
+Package hyperref Info: Option `colorlinks' set `true' on input line 310.
+
+\@input{data.aux}
+("D:\Skripsi\Template Skripsi FTIS v9\data.tex" ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen148
+\lightrulewidth=\dimen149
+\cmidrulewidth=\dimen150
+\belowrulesep=\dimen151
+\belowbottomsep=\dimen152
+\aboverulesep=\dimen153
+\abovetopsep=\dimen154
+\cmidrulesep=\dimen155
+\cmidrulekern=\dimen156
+\defaultaddspace=\dimen157
+\@cmidla=\count146
+\@cmidlb=\count147
+\@aboverulesep=\dimen158
+\@belowrulesep=\dimen159
+\@thisruleclass=\count148
+\@lastruleclass=\count149
+\@thisrulewidth=\dimen160
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen161
+\extrarowheight=\dimen162
+\NC@list=\toks24
+\extratabsurround=\skip102
+\backup@length=\skip103
+)
+\everycr=\toks25
+\minrowclearance=\skip104
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count150
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip105
+\LTright=\skip106
+\LTpre=\skip107
+\LTpost=\skip108
+\LTchunksize=\count151
+\LTcapwidth=\dimen163
+\LT@head=\box60
+\LT@firsthead=\box61
+\LT@foot=\box62
+\LT@lastfoot=\box63
+\LT@cols=\count152
+\LT@rows=\count153
+\c@LT@tables=\count154
+\c@LT@chunks=\count155
+\LT@p@ftn=\toks26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip109
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks27
+\ex@=\dimen164
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen165
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count156
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count157
+\leftroot@=\count158
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count159
+\DOTSCASE@=\count160
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box64
+\strutbox@=\box65
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count161
+\c@MaxMatrixCols=\count162
+\dotsspace@=\muskip11
+\c@parentequation=\count163
+\dspbrk@lvl=\count164
+\tag@help=\toks28
+\row@=\count165
+\column@=\count166
+\maxfields@=\count167
+\andhelp@=\toks29
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks30
+\multlinegap=\skip110
+\multlinetaggap=\skip111
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+))
+\@input{dosen.aux}
+("D:\Skripsi\Template Skripsi FTIS v9\dosen.tex") ("D:\Skripsi\Template Skripsi FTIS v9\main.aux"
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab1.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab2.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab3.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab4.aux"
+
+LaTeX Warning: Label `fig:classdesencryption' multiply defined.
+
+) ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab5.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab6.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab7.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab8.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab9.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampA.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampB.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampC.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampD.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampE.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampF.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampG.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampH.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampI.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count168
+\scratchdimen=\dimen173
+\scratchbox=\box66
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count171
+\MPscratchDim=\dimen174
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks33
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-38.1381pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count174
+\AtBeginShipoutBox=\box67
+Package hyperref Info: Link coloring ON on input line 325.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count175
+)
+LaTeX Info: Redefining \ref on input line 325.
+LaTeX Info: Redefining \pageref on input line 325.
+LaTeX Info: Redefining \nameref on input line 325.
+ ("D:\Skripsi\Template Skripsi FTIS v9\main.out") ("D:\Skripsi\Template Skripsi FTIS v9\main.out")
+\@outlinefile=\write4
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+<Gambar/logo-unpar.png, id=339, 360.59718pt x 356.0803pt>
+File: Gambar/logo-unpar.png Graphic file (type png)
+ <use Gambar/logo-unpar.png>
+Package pdftex.def Info: Gambar/logo-unpar.png used on input line 498.
+(pdftex.def)             Requested size: 144.23631pt x 142.4296pt.
+ [1
+
+
+
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Skripsi/Template Skripsi FTIS v9/Gambar/logo-unpar.png>] [2
+
+]
+File: Gambar/logo-unpar.png Graphic file (type png)
+ <use Gambar/logo-unpar.png>
+Package pdftex.def Info: Gambar/logo-unpar.png used on input line 498.
+(pdftex.def)             Requested size: 144.23631pt x 142.4296pt.
+
+[3] [4
+
+] [5] [6
+
+] [7] [8
+
+] [9] [10
+
+] [11] [12
+
+] [13] [14
+
+] [15
+
+] [16
+
+] ("D:\Skripsi\Template Skripsi FTIS v9\main.toc" [17])
+\tf@toc=\write5
+
+[18] ("D:\Skripsi\Template Skripsi FTIS v9\main.lof" [19])
+\tf@lof=\write6
+ [20] ("D:\Skripsi\Template Skripsi FTIS v9\main.lot")
+\tf@lot=\write7
+
+[21] [22
+
+] ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab1.tex"
+Bab 1.
+[1
+
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+ [2]) [3] ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab2.tex" [4
+
+
+
+]
+Bab 2.
+[5] [6] <Gambar/proses_enkripsi_des.png, id=711, 296.60812pt x 320.69812pt>
+File: Gambar/proses_enkripsi_des.png Graphic file (type png)
+ <use Gambar/proses_enkripsi_des.png>
+Package pdftex.def Info: Gambar/proses_enkripsi_des.png used on input line 71.
+(pdftex.def)             Requested size: 237.2868pt x 256.55884pt.
+
+[7 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/proses_enkripsi_des.png>]
+<Gambar/key_generate.png, id=721, 407.27156pt x 447.92343pt>
+File: Gambar/key_generate.png Graphic file (type png)
+ <use Gambar/key_generate.png>
+Package pdftex.def Info: Gambar/key_generate.png used on input line 111.
+(pdftex.def)             Requested size: 285.08813pt x 313.54427pt.
+ [8] [9 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/key_generate.png>] [10] <Gambar/putaran_des.png, id=758, 244.66406pt
+ x 190.46156pt>
+File: Gambar/putaran_des.png Graphic file (type png)
+
+<use Gambar/putaran_des.png>
+Package pdftex.def Info: Gambar/putaran_des.png used on input line 211.
+(pdftex.def)             Requested size: 195.7315pt x 152.36943pt.
+ [11 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/putaran_des.png>]
+<Gambar/jaringan_feistel.png, id=775, 403.5075pt x 366.61969pt>
+File: Gambar/jaringan_feistel.png Graphic file (type png)
+ <use Gambar/jaringan_feistel.png>
+Package pdftex.def Info: Gambar/jaringan_feistel.png used on input line 247.
+(pdftex.def)             Requested size: 242.10637pt x 219.97351pt.
+ [12 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/jaringan_feistel.png>] [13] [14] [15] [16] [17] [18]
+<Gambar/compression_function.png, id=849, 499.8675pt x 443.40656pt>
+File: Gambar/compression_function.png Graphic file (type png)
+ <use Gambar/compression_function.png>
+Package pdftex.def Info: Gambar/compression_function.png used on input line 562.
+(pdftex.def)             Requested size: 349.90486pt x 310.38248pt.
+ [19 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/compression_function.png>] <Gambar/sha_round.png, id=857, 319.1925pt x 
+155.83218pt>
+File: Gambar/sha_round.png Graphic file (type png)
+
+<use Gambar/sha_round.png>
+Package pdftex.def Info: Gambar/sha_round.png used on input line 582.
+(pdftex.def)             Requested size: 255.35434pt x 124.66591pt.
+ <Gambar/complex_function.png, id=859, 541.27219pt x 329.73187pt>
+File: Gambar/complex_function.png Graphic file (type png)
+
+<use Gambar/complex_function.png>
+Package pdftex.def Info: Gambar/complex_function.png used on input line 593.
+(pdftex.def)             Requested size: 378.88794pt x 230.81071pt.
+ [20 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/sha_round.png>] [21 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/complex
+_function.png>]
+
+LaTeX Warning: Reference `fig:compression_function' on page 22 undefined on input line 643.
+
+<Gambar/digest_creation.png, id=894, 587.94656pt x 280.04625pt>
+File: Gambar/digest_creation.png Graphic file (type png)
+ <use Gambar/digest_creation.png>
+Package pdftex.def Info: Gambar/digest_creation.png used on input line 649.
+(pdftex.def)             Requested size: 411.55978pt x 196.03102pt.
+ [22 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/digest_creation.png>] [23] <Gambar/password_1.png, id=918, 607.51968pt 
+x 189.70876pt>
+File: Gambar/password_1.png Graphic file (type png)
+
+<use Gambar/password_1.png>
+Package pdftex.def Info: Gambar/password_1.png used on input line 694.
+(pdftex.def)             Requested size: 425.26086pt x 132.79521pt.
+ <Gambar/password_2.png, id=920, 591.71063pt x 182.93344pt>
+File: Gambar/password_2.png Graphic file (type png)
+ <use Gambar/password_2.png>
+Package pdftex.def Info: Gambar/password_2.png used on input line 709.
+(pdftex.def)             Requested size: 414.19461pt x 128.05252pt.
+
+[24 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/password_1.png>]
+<Gambar/password_3.png, id=930, 653.44125pt x 189.70876pt>
+File: Gambar/password_3.png Graphic file (type png)
+ <use Gambar/password_3.png>
+Package pdftex.def Info: Gambar/password_3.png used on input line 726.
+(pdftex.def)             Requested size: 457.40576pt x 132.79521pt.
+ [25 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/password_2.png>] [26 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/passwo
+rd_3.png>] [27] [28] [29] [30]
+[31] [32]) [33] ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab3.tex" [34
+
+
+
+]
+Bab 3.
+<Gambar/flowchart_share.png, id=1046, 564.60938pt x 409.53pt>
+File: Gambar/flowchart_share.png Graphic file (type png)
+ <use Gambar/flowchart_share.png>
+Package pdftex.def Info: Gambar/flowchart_share.png used on input line 16.
+(pdftex.def)             Requested size: 395.22386pt x 286.66904pt.
+ [35]
+<Gambar/flowchart_reconstruct.png, id=1056, 546.54187pt x 425.33907pt>
+File: Gambar/flowchart_reconstruct.png Graphic file (type png)
+ <use Gambar/flowchart_reconstruct.png>
+Package pdftex.def Info: Gambar/flowchart_reconstruct.png used on input line 37.
+(pdftex.def)             Requested size: 355.248pt x 276.4671pt.
+ [36 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/flowchart_share.png>] [37 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/f
+lowchart_reconstruct.png>] [38]
+Overfull \hbox (0.11383pt too wide) in paragraph at lines 93--94
+[]\T1/cmr/m/n/10.95 Kembali ke-pa-da ka-sus pa-da Su-bbab [][]3.2.1[][], mi-salk-an \T1/cmr/m/it/10.95 pass-wo-rd \T1/cm
+r/m/n/10.95 yang ak-an di-ba-ngun \T1/cmr/m/it/10.95 share-share\T1/cmr/m/n/10.95 nya
+ []
+
+[39] [40]
+Overfull \hbox (2.29749pt too wide) in paragraph at lines 175--176
+[]\T1/cmr/m/n/10.95 Kembali ke-pa-da ka-sus pa-da Su-bbab [][]3.2.1[][], mi-salk-an \T1/cmr/m/it/10.95 pass-wo-rd \T1/cm
+r/m/n/10.95 yang ak-an di-enk-ri-psi \T1/cmr/m/it/10.95 share-share\T1/cmr/m/n/10.95 nya
+ []
+
+[41] [42] [43] [44] [45] [46] [47] [48] <Gambar/use_case.png, id=1276, 737.75626pt x 521.69907pt>
+File: Gambar/use_case.png Graphic file (type png)
+
+<use Gambar/use_case.png>
+Package pdftex.def Info: Gambar/use_case.png used on input line 493.
+(pdftex.def)             Requested size: 368.87723pt x 260.84889pt.
+ [49 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/use_case.png>]
+<Gambar/sharing-secret.png, id=1287, 1139.75812pt x 560.0925pt>
+File: Gambar/sharing-secret.png Graphic file (type png)
+ <use Gambar/sharing-secret.png>
+Package pdftex.def Info: Gambar/sharing-secret.png used on input line 537.
+(pdftex.def)             Requested size: 455.89517pt x 224.03302pt.
+ [50 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/sharing-secret.png>] <Gambar/reconstruct-secret.png, id=1297, 1100.6118
+8pt x 548.0475pt>
+File: Gambar/reconstruct-secret.png Graphic file (type png)
+
+<use Gambar/reconstruct-secret.png>
+Package pdftex.def Info: Gambar/reconstruct-secret.png used on input line 549.
+(pdftex.def)             Requested size: 440.23695pt x 219.2151pt.
+ <Gambar/engine-class-diagram.png, id=1300, 528.47438pt x 295.1025pt>
+File: Gambar/engine-class-diagram.png Graphic file (type png)
+
+<use Gambar/engine-class-diagram.png>
+Package pdftex.def Info: Gambar/engine-class-diagram.png used on input line 563.
+(pdftex.def)             Requested size: 317.08707pt x 177.06285pt.
+ [51 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/reconstruct-secret.png>]) [52 <D:/Skripsi/Template Skripsi FTIS v9/Gamb
+ar/engine-class-diagram.png>] ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab4.tex"
+Bab 4.
+<Gambar/final_class_diagram.png, id=1322, 1277.52281pt x 979.40906pt>
+File: Gambar/final_class_diagram.png Graphic file (type png)
+ <use Gambar/final_class_diagram.png>
+Package pdftex.def Info: Gambar/final_class_diagram.png used on input line 19.
+(pdftex.def)             Requested size: 1277.5197pt x 979.40666pt.
+
+Overfull \hbox (20.23283pt too wide) in paragraph at lines 19--20
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Gambar/class_sha512.png, id=1325, 358.33875pt x 322.20375pt>
+File: Gambar/class_sha512.png Graphic file (type png)
+ <use Gambar/class_sha512.png>
+Package pdftex.def Info: Gambar/class_sha512.png used on input line 33.
+(pdftex.def)             Requested size: 179.16893pt x 161.10147pt.
+ [53
+
+
+
+ <D:/Skripsi/Template Skripsi FTIS v9/Gambar/class_sha512.png>] [54]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 93.
+ [55] <Gambar/class_function.png, id=1376, 178.41656pt x 88.07906pt>
+File: Gambar/class_function.png Graphic file (type png)
+
+<use Gambar/class_function.png>
+Package pdftex.def Info: Gambar/class_function.png used on input line 133.
+(pdftex.def)             Requested size: 124.89072pt x 61.6549pt.
+ [56 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/class_function.png>]
+<Gambar/class_equation_solver.png, id=1390, 477.28313pt x 140.02313pt>
+File: Gambar/class_equation_solver.png Graphic file (type png)
+ <use Gambar/class_equation_solver.png>
+Package pdftex.def Info: Gambar/class_equation_solver.png used on input line 166.
+(pdftex.def)             Requested size: 334.0959pt x 98.01552pt.
+
+
+LaTeX Warning: Reference `fig:classsecretsharing' on page 57 undefined on input line 192.
+
+<Gambar/class_secret_sharing.png, id=1391, 288.3272pt x 164.11313pt>
+File: Gambar/class_secret_sharing.png Graphic file (type png)
+ <use Gambar/class_secret_sharing.png>
+Package pdftex.def Info: Gambar/class_secret_sharing.png used on input line 196.
+(pdftex.def)             Requested size: 201.82765pt x 114.87839pt.
+ [57 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/class_equation_solver.png>] [58 <D:/Skripsi/Template Skripsi FTIS v9/Ga
+mbar/class_secret_sharing.png>] <Gambar/class_des.png, id=1421, 271.76532pt x 334.24875pt>
+File: Gambar/class_des.png Graphic file (type png)
+ <use Gambar/class_des.png>
+Package pdftex.def Info: Gambar/class_des.png used on input line 251.
+(pdftex.def)             Requested size: 163.06044pt x 200.55078pt.
+ [59 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/class_des.png>] [60]
+<Gambar/class_des_encryption.png, id=1453, 170.88844pt x 173.89969pt>
+File: Gambar/class_des_encryption.png Graphic file (type png)
+ <use Gambar/class_des_encryption.png>
+Package pdftex.def Info: Gambar/class_des_encryption.png used on input line 325.
+(pdftex.def)             Requested size: 102.53384pt x 104.3406pt.
+ [61 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/class_des_encryption.png>]
+<Gambar/class_des_decryption.png, id=1469, 165.61874pt x 112.16907pt>
+File: Gambar/class_des_decryption.png Graphic file (type png)
+ <use Gambar/class_des_decryption.png>
+Package pdftex.def Info: Gambar/class_des_decryption.png used on input line 367.
+(pdftex.def)             Requested size: 99.37201pt x 67.30194pt.
+ [62]
+<Gambar/class_data_reader.png, id=1486, 194.22563pt x 138.5175pt>
+File: Gambar/class_data_reader.png Graphic file (type png)
+ <use Gambar/class_data_reader.png>
+Package pdftex.def Info: Gambar/class_data_reader.png used on input line 392.
+(pdftex.def)             Requested size: 155.3807pt x 110.81413pt.
+ [63 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/class_des_decryption.png> <D:/Skripsi/Template Skripsi FTIS v9/Gambar/c
+lass_data_reader.png>] <Gambar/class_data_writer.png, id=1502, 184.43906pt x 126.4725pt>
+File: Gambar/class_data_writer.png Graphic file (type png)
+ <use Gambar/class_data_writer.png>
+Package pdftex.def Info: Gambar/class_data_writer.png used on input line 422.
+(pdftex.def)             Requested size: 147.55144pt x 101.17813pt.
+ [64 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/class_data_writer.png>] <Gambar/tampilan-utama.png, id=1516, 471.7625pt
+ x 321.2pt>
+File: Gambar/tampilan-utama.png Graphic file (type png)
+
+<use Gambar/tampilan-utama.png>
+Package pdftex.def Info: Gambar/tampilan-utama.png used on input line 452.
+(pdftex.def)             Requested size: 235.88066pt x 160.59961pt.
+ <Gambar/store_password.png, id=1518, 544.0325pt x 358.33875pt>
+File: Gambar/store_password.png Graphic file (type png)
+
+<use Gambar/store_password.png>
+Package pdftex.def Info: Gambar/store_password.png used on input line 460.
+(pdftex.def)             Requested size: 272.01558pt x 179.16893pt.
+ [65 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/tampilan-utama.png> <D:/Skripsi/Template Skripsi FTIS v9/Gambar/store_p
+assword.png>] <Gambar/retrieve_password.png, id=1527, 544.0325pt x 358.33875pt>
+File: Gambar/retrieve_password.png Graphic file (type png)
+
+<use Gambar/retrieve_password.png>
+Package pdftex.def Info: Gambar/retrieve_password.png used on input line 472.
+(pdftex.def)             Requested size: 272.01558pt x 179.16893pt.
+ <Gambar/password.png, id=1530, 495.8525pt x 218.8175pt>
+File: Gambar/password.png Graphic file (type png)
+ <use Gambar/password.png>
+Package pdftex.def Info: Gambar/password.png used on input line 482.
+(pdftex.def)             Requested size: 247.92564pt x 109.40848pt.
+)
+[66 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/retrieve_password.png> <D:/Skripsi/Template Skripsi FTIS v9/Gambar/passw
+ord.png>] [67 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/final_class_diagram.png>]
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab5.tex" [68
+
+
+
+]
+Bab 5.
+<Gambar/tampilan1.png, id=1547, 675.27281pt x 445.665pt>
+File: Gambar/tampilan1.png Graphic file (type png)
+ <use Gambar/tampilan1.png>
+Package pdftex.def Info: Gambar/tampilan1.png used on input line 21.
+(pdftex.def)             Requested size: 337.63557pt x 222.83195pt.
+ [69 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/tampilan1.png>] <Gambar/tampilan2.png, id=1556, 671.50874pt x 448.67625
+pt>
+File: Gambar/tampilan2.png Graphic file (type png)
+ <use Gambar/tampilan2.png>
+Package pdftex.def Info: Gambar/tampilan2.png used on input line 37.
+(pdftex.def)             Requested size: 335.75356pt x 224.33757pt.
+
+<Gambar/tampilan2_2.png, id=1557, 674.52pt x 446.41782pt>
+File: Gambar/tampilan2_2.png Graphic file (type png)
+ <use Gambar/tampilan2_2.png>
+Package pdftex.def Info: Gambar/tampilan2_2.png used on input line 44.
+(pdftex.def)             Requested size: 337.25917pt x 223.20836pt.
+ [70 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/tampilan2.png> <D:/Skripsi/Template Skripsi FTIS v9/Gambar/tampilan2_2.
+png>]
+<Gambar/tampilan2_1.png, id=1565, 676.02562pt x 442.65375pt>
+File: Gambar/tampilan2_1.png Graphic file (type png)
+ <use Gambar/tampilan2_1.png>
+Package pdftex.def Info: Gambar/tampilan2_1.png used on input line 53.
+(pdftex.def)             Requested size: 338.01198pt x 221.32632pt.
+
+<Gambar/tampilan3.png, id=1567, 762.59906pt x 478.78876pt>
+File: Gambar/tampilan3.png Graphic file (type png)
+ <use Gambar/tampilan3.png>
+Package pdftex.def Info: Gambar/tampilan3.png used on input line 69.
+(pdftex.def)             Requested size: 381.2986pt x 239.39378pt.
+ [71 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/tampilan2_1.png>] <Gambar/tampilan4.png, id=1575, 772.38562pt x 283.057
+5pt>
+File: Gambar/tampilan4.png Graphic file (type png)
+ <use Gambar/tampilan4.png>
+Package pdftex.def Info: Gambar/tampilan4.png used on input line 78.
+(pdftex.def)             Requested size: 386.19186pt x 141.5284pt.
+
+<Gambar/tampilan4_1.png, id=1577, 765.6103pt x 264.99pt>
+File: Gambar/tampilan4_1.png Graphic file (type png)
+ <use Gambar/tampilan4_1.png>
+Package pdftex.def Info: Gambar/tampilan4_1.png used on input line 87.
+(pdftex.def)             Requested size: 382.80421pt x 132.49467pt.
+ [72 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/tampilan3.png> <D:/Skripsi/Template Skripsi FTIS v9/Gambar/tampilan4.pn
+g>] [73 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/tampilan4_1.png>] <Gambar/simpan_password.png, id=1593, 490.83376pt 
+x 444.15938pt>
+File: Gambar/simpan_password.png Graphic file (type png)
+
+<use Gambar/simpan_password.png>
+Package pdftex.def Info: Gambar/simpan_password.png used on input line 131.
+(pdftex.def)             Requested size: 392.66753pt x 355.32797pt.
+ [74]
+Overfull \hbox (0.309pt too wide) in paragraph at lines 138--139
+[]\T1/cmr/m/n/10.95 Sesudah me-nyimp-an pass-wo-rd, lang-kah se-lan-jut-nya ada-lah me-la-kuk-an pe-ngu-ji-an ter-ha-dap
+ kasus-
+ []
+
+<Gambar/fungsional1.png, id=1605, 700.11563pt x 350.81062pt>
+File: Gambar/fungsional1.png Graphic file (type png)
+ <use Gambar/fungsional1.png>
+Package pdftex.def Info: Gambar/fungsional1.png used on input line 144.
+(pdftex.def)             Requested size: 420.07262pt x 210.48799pt.
+ [75 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/simpan_password.png>] <Gambar/fungsional2.png, id=1613, 697.8572pt x 35
+0.81062pt>
+File: Gambar/fungsional2.png Graphic file (type png)
+
+<use Gambar/fungsional2.png>
+Package pdftex.def Info: Gambar/fungsional2.png used on input line 155.
+(pdftex.def)             Requested size: 418.71754pt x 210.48799pt.
+ [76 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/fungsional1.png> <D:/Skripsi/Template Skripsi FTIS v9/Gambar/fungsional
+2.png>] <Gambar/fungsional3.png, id=1625, 557.83406pt x 287.57437pt>
+File: Gambar/fungsional3.png Graphic file (type png)
+
+<use Gambar/fungsional3.png>
+Package pdftex.def Info: Gambar/fungsional3.png used on input line 166.
+(pdftex.def)             Requested size: 390.48117pt x 201.30069pt.
+ <Gambar/fungsional4.png, id=1627, 698.61pt x 349.305pt>
+File: Gambar/fungsional4.png Graphic file (type png)
+ <use Gambar/fungsional4.png>
+Package pdftex.def Info: Gambar/fungsional4.png used on input line 177.
+(pdftex.def)             Requested size: 419.16924pt x 209.58461pt.
+
+[77 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/fungsional3.png> <D:/Skripsi/Template Skripsi FTIS v9/Gambar/fungsional4
+.png>] <Gambar/fungsional5.png, id=1637, 558.58687pt x 140.02313pt>
+File: Gambar/fungsional5.png Graphic file (type png)
+ <use Gambar/fungsional5.png>
+Package pdftex.def Info: Gambar/fungsional5.png used on input line 188.
+(pdftex.def)             Requested size: 391.00815pt x 98.01552pt.
+ [78 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/fungsional5.png>] <Gambar/kasus1.png, id=1644, 369.63094pt x 225.09094p
+t>
+File: Gambar/kasus1.png Graphic file (type png)
+
+<use Gambar/kasus1.png>
+Package pdftex.def Info: Gambar/kasus1.png used on input line 232.
+(pdftex.def)             Requested size: 295.70514pt x 180.07298pt.
+ [79 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/kasus1.png>]
+<Gambar/kasus2.png, id=1664, 369.63094pt x 222.8325pt>
+File: Gambar/kasus2.png Graphic file (type png)
+ <use Gambar/kasus2.png>
+Package pdftex.def Info: Gambar/kasus2.png used on input line 262.
+(pdftex.def)             Requested size: 295.70514pt x 178.26624pt.
+ [80 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/kasus2.png>] <Gambar/kasus3.png, id=1684, 368.1253pt x 222.8325pt>
+File: Gambar/kasus3.png Graphic file (type png)
+ <use Gambar/kasus3.png>
+Package pdftex.def Info: Gambar/kasus3.png used on input line 294.
+(pdftex.def)             Requested size: 294.50064pt x 178.26624pt.
+ [81 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/kasus3.png>] <Gambar/kasus4.png, id=1707, 368.87813pt x 224.33812pt>
+File: Gambar/kasus4.png Graphic file (type png)
+ <use Gambar/kasus4.png>
+Package pdftex.def Info: Gambar/kasus4.png used on input line 329.
+(pdftex.def)             Requested size: 295.10289pt x 179.47073pt.
+
+[82 <D:/Skripsi/Template Skripsi FTIS v9/Gambar/kasus4.png>]) [83] ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab6.tex"
+[84
+
+
+
+]
+Bab 6.
+[85]) [86] ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab7.tex") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab8.tex")
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab9.tex") ("D:\Skripsi\Template Skripsi FTIS v9\main.bbl") [87
+
+
+
+
+
+
+
+
+]
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampA.tex" [88
+
+
+]
+Lampiran A.
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+) [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
+[99] [100] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+) [101] [102] [103] [104] [105] [106]) [107]
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampB.tex") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampC.tex")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampD.tex") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampE.tex")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampF.tex") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampG.tex")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampH.tex") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampI.tex")
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 538.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
+
+("D:\Skripsi\Template Skripsi FTIS v9\main.aux" ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab1.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab2.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab3.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab4.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab5.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab6.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab7.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab8.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Bab/bab9.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampA.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampB.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampC.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampD.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampE.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampF.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampG.aux") ("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampH.aux")
+("D:\Skripsi\Template Skripsi FTIS v9\Lampiran/lampI.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CD82E7182C7B80D7066E72D412FFA2A1;12849.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 19431 strings out of 493921
+ 283037 string characters out of 3147279
+ 942359 words of memory out of 3000000
+ 19937 multiletter control sequences out of 15000+200000
+ 21956 words of font info for 47 fonts, out of 3000000 for 9000
+ 845 hyphenation exceptions out of 8191
+ 45i,15n,53p,902b,1951s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0600.pk> <C:\Users\Samuel\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\eccc1095.pk> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.p
+k> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1095.pk> <C:\Users\Samuel\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1095.p
+k> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk> <C:\Users\Samuel\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.p
+k> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Samuel\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbi1440.pk> <C:\Users\Samuel\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.p
+k><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (129 pages, 2647525 bytes).
+PDF statistics:
+ 4814 PDF objects out of 5155 (max. 8388607)
+ 2374 named destinations out of 2487 (max. 500000)
+ 918 words of extra memory for PDF output out of 10000 (max. 10000000)
+
