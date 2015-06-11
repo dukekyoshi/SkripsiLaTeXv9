@@ -12,8 +12,8 @@ Pada bagian ini dijelaskan mengenai perancangan perangkat lunak yang dibangun be
 Pada bagian ini dijelaskan tahapan dari proses penyimpanan \textit{password}. Flowchart dari proses penyimpanan password ditunjukkan pada Gambar \ref{fig:create_share}.
 
 %diagram
-\begin{figure}[H]
-	\centerline{\includegraphics[scale=0.7]{Gambar/flowchart_share}}
+\begin{figure}[h]
+	\centerline{\includegraphics[scale=0.6]{Gambar/flowchart_share}}
 	\caption{Proses Penyimpanan \textit{Password}}\label{fig:create_share}
 \end{figure}
 
@@ -33,8 +33,8 @@ Tahapan-tahapan pada proses yang ditunjukkan oleh Gambar \ref{fig:create_share} 
 Pada bagian ini dijelaskan tahapan dari proses rekonstruksi \textit{password}. Flowchart dari proses rekonstruksi password ditunjukkan pada Gambar \ref{fig:flowchart_reconstruct_secret}.
 
 %diagram
-\begin{figure}[H]
-	\centerline{\includegraphics[scale=0.65]{Gambar/flowchart_reconstruct}}
+\begin{figure}[h]
+	\centerline{\includegraphics[scale=0.6]{Gambar/flowchart_reconstruct}}
 	\caption{Proses Rekonstruksi \textit{Password}}\label{fig:flowchart_reconstruct_secret}
 \end{figure}
 
@@ -223,7 +223,7 @@ Langkah selanjutnya adalah mengenkripsi setiap nilai \textit{share} yang sudah d
 
 Kolom pada Tabel \ref{table:enkripsi1} menunjukkan urutan karakter dari \textit{password}. Sementara itu, baris menunjukkan urutan \textit{share} dari masing-masing karakter. Sebagai contoh, kolom $c_1$ baris $s_1$ menunjukkan hasil enkripsi untuk \textit{share} pertama dari karakter pertama \textit{password} $p_1$.
 
-Langkah enkripsi setiap \textit{share} ini dilakukan untuk setiap \textit{password} \begin{math}p_2\end{math} sampai \begin{math}p_5\end{math}. Kemudian setelah proses enkripsi ini, pertanyaan keamanan, jawaban, hasil enkripsi (\textit{ciphertext}), nilai \textit{salt}, dan nilai \begin{math}k\end{math} akan disimpan.
+Langkah enkripsi setiap \textit{share} ini dilakukan untuk setiap \textit{password} \begin{math}p_2\end{math} sampai \begin{math}p_5\end{math}. Kemudian setelah proses enkripsi ini, pertanyaan keamanan, hasil enkripsi (\textit{ciphertext}), nilai \textit{salt}, dan nilai \begin{math}k\end{math} akan disimpan.
 
 \subsection{Proses Pengembalian \textit{Password}}
 
@@ -452,14 +452,14 @@ Nilai \begin{math}n\end{math} adalah banyak pertanyaan keamanan yang dibuat. Ban
 	\label{eq:pilihn1}
 \end{equation}
 
-Maka, dari persamaan \ref{eq:pilihn1} untuk $n$ pertanyaan, probabilitas dari $P_i$ akan bertambah besar dengan bertambah besarnya nilai $k$. Melalui hal tersebut, dapat disimpulkan probabilitas pengguna akan berhasil mengembalikan \textit{password}\cite{ellison2000protecting}:
+Maka, dari persamaan \ref{eq:pilihn1} untuk $n$ pertanyaan, probabilitas dari $P_i$ akan bertambah besar dengan bertambah besarnya nilai $k$. Melalui hal tersebut, dapat disimpulkan probabilitas pengguna akan berhasil mengembalikan \textit{password}:
 
 \begin{equation}
 	P_2(k,n,P_0) = \sum\limits_{i=k}^n P_1(i,n,P_0)
 	\label{eq:pilihn2}
 \end{equation}
 
-$P_2$ akan mempengaruhi pasangan $n$ dan $k$ yang harus dipilih. Jika dimisalkan $P_0 = 0.95$ dan $P_2 = 0.99998$, maka pasangan $n$ dan $k$ yang ideal dari hasil penghitungan menggunakan persamaan \ref{eq:pilihn2}\cite{ellison2000protecting}:
+$P_2$ akan mempengaruhi pasangan $n$ dan $k$ yang harus dipilih. Jika dimisalkan $P_0 = 0.95$ dan $P_2 = 0.99998$, maka pasangan $n$ dan $k$ yang ideal dari hasil penghitungan menggunakan persamaan \ref{eq:pilihn2}:
 
 \begin{table}[H]
 	\begin{center}
@@ -489,14 +489,14 @@ Pada bagian ini dibuat diagram-diagram untuk perangkat lunak yang dibangun. Diag
 Perangkat lunak yang dibangun memiliki 2 fitur utama, yaitu menyimpan \textit{password} beserta pertanyaan keamanan yang sifatnya personal dan mengembalikan \textit{password}. Saat menyimpan \textit{password}, pengguna akan diminta untuk menambahkan pertanyaan keamanan yang sifatnya personal dan saat mengembalikan \textit{password}, pengguna akan diminta untuk menjawab pertanyaan keamanan yang sudah disimpan saat menyimpan \textit{password}. Gambar \ref{fig:use_case} menunjukkan diagram \textit{use case} dari perangkat lunak.
 
 %diagram
-\begin{figure}[H]
+\begin{figure}[h]
 	\centerline{\includegraphics[scale=0.5]{Gambar/use_case}}
 	\caption{Diagram \textit{use case} dari perangkat lunak}\label{fig:use_case}
 \end{figure}
 
 Adapun skenario-skenario yang pengguna dapat lakukan. Skenario untuk menyimpan \textit{password} ditunjukkan oleh Tabel \ref{table:scenario1}. Aktor dari skenario ini adalah pengguna dari sistem. Data masukan dari skenario ini adalah $n$ \textit{password} dan $n$ pertanyaan keamanan.
 
-\begin{table}[H]
+\begin{table}[h]
 	\centering
 	\caption{Skenario Menyimpan \textit{Password}} \label{table:scenario1}
 	\begin{tabular}{|l|p{12cm}|}
@@ -513,7 +513,7 @@ Adapun skenario-skenario yang pengguna dapat lakukan. Skenario untuk menyimpan \
 
 Skenario untuk mengembalikan \textit{password} ditunjukkan oleh Tabel \ref{table:scenario2}. Aktor dari skenario ini adalah pengguna dari sistem. Data masukan dari skenario ini adalah $n$ jawaban dari pertanyaan keamanan yang sudah dibuat.
 
-\begin{table}[H]
+\begin{table}[h]
 	\centering
 	\caption{Skenario Mengembalikan \textit{Password}} \label{table:scenario2}
 	\begin{tabular}{|l|p{12cm}|}
@@ -534,7 +534,7 @@ Perangkat lunak yang dibangun memiliki 2 proses, yaitu menyimpan \textit{passwor
 
 %diagram
 \begin{figure}[H]
-	\centerline{\includegraphics[scale=0.4]{Gambar/sharing-secret}}
+	\centerline{\includegraphics[scale=0.35]{Gambar/sharing-secret}}
 	\caption{Diagram aktivitas untuk menyimpan \textit{password}}\label{fig:activity1}
 \end{figure}
 
@@ -546,7 +546,7 @@ Selanjutnya adalah proses mengembalikan \textit{password}. Gambar \ref{fig:activ
 
 %diagram
 \begin{figure}[H]
-	\centerline{\includegraphics[scale=0.4]{Gambar/reconstruct-secret}}
+	\centerline{\includegraphics[scale=0.35]{Gambar/reconstruct-secret}}
 	\caption{Diagram aktivitas untuk mengembalikan \textit{password}}\label{fig:activity2}
 \end{figure}
 
