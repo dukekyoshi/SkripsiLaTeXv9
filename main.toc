@@ -52,11 +52,11 @@
 \contentsline {section}{\numberline {2.8}\textit {Secret Sharing} Shamir}{28}{section.2.8}
 \contentsline {subsection}{\numberline {2.8.1}Sejarah Singkat}{28}{subsection.2.8.1}
 \contentsline {subsection}{\numberline {2.8.2}Pembahasan \textit {Secret Sharing} Shamir}{28}{subsection.2.8.2}
-\contentsline {subsubsection}{Skema \textit {Threshold}(\textit {k},\textit {n})}{28}{subsubsection*.47}
+\contentsline {subsubsection}{Skema \textit {Threshold}(\textit {k},\textit {n})}{29}{subsubsection*.47}
 \contentsline {subsubsection}{Proses Pembangunan \textit {Share}}{29}{subsubsection*.48}
 \contentsline {subsubsection}{Proses Rekonstruksi Rahasia}{29}{subsubsection*.49}
 \contentsline {section}{\numberline {2.9}Probabilitas}{30}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Distribusi Binom}{30}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.1}Distribusi Binom}{31}{subsection.2.9.1}
 \contentsline {section}{\numberline {2.10}Entropi}{31}{section.2.10}
 \contentsline {subsection}{\numberline {2.10.1}Sejarah Singkat}{31}{subsection.2.10.1}
 \contentsline {subsection}{\numberline {2.10.2}Pembahasan}{31}{subsection.2.10.2}
@@ -83,15 +83,15 @@
 \contentsline {section}{\numberline {4.1}Diagram Kelas Rinci}{51}{section.4.1}
 \contentsline {section}{\numberline {4.2}Deskripsi Kelas dan Fungsi}{51}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Kelas \textit {SHA512}}{51}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Kelas \textit {Function}}{55}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Kelas \textit {EquationSolver}}{56}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Kelas \textit {SecretSharing}}{56}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Kelas \textit {DataEncryptionStandard}}{58}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Kelas \textit {Encryption}}{60}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Kelas \textit {Decryption}}{61}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Kelas \textit {DataReader}}{62}{subsection.4.2.8}
-\contentsline {subsection}{\numberline {4.2.9}Kelas \textit {DataWriter}}{63}{subsection.4.2.9}
-\contentsline {section}{\numberline {4.3}Perancangan Antarmuka}{64}{section.4.3}
+\contentsline {subsection}{\numberline {4.2.2}Kelas \textit {Function}}{54}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Kelas \textit {EquationSolver}}{55}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Kelas \textit {SecretSharing}}{55}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Kelas \textit {DataEncryptionStandard}}{57}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Kelas \textit {Encryption}}{59}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Kelas \textit {Decryption}}{60}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Kelas \textit {DataReader}}{61}{subsection.4.2.8}
+\contentsline {subsection}{\numberline {4.2.9}Kelas \textit {DataWriter}}{62}{subsection.4.2.9}
+\contentsline {section}{\numberline {4.3}Perancangan Antarmuka}{63}{section.4.3}
 \contentsline {chapter}{\numberline {5}Implementasi dan Pengujian}{67}{chapter.5}
 \contentsline {section}{\numberline {5.1}Implementasi Perangkat Lunak}{67}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Tampilan Antarmuka Perangkat Lunak}{67}{subsection.5.1.1}

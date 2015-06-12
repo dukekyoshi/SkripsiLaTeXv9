@@ -21,19 +21,19 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Rancangan Diagram Kelas\relax }}{49}{figure.caption.65}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Kelas SHA512\relax }}{51}{figure.caption.67}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram Kelas Rinci\relax }}{52}{figure.caption.66}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Kelas \textit {Function}\relax }}{55}{figure.caption.68}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Kelas \textit {EquationSolver}\relax }}{56}{figure.caption.69}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Kelas \textit {DESEncryption}\relax }}{57}{figure.caption.70}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Kelas \textit {DataEncryptionStandard}\relax }}{58}{figure.caption.71}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Kelas \textit {Encryption}\relax }}{60}{figure.caption.72}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Kelas \textit {DESDecryption}\relax }}{62}{figure.caption.73}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Kelas \textit {DataReader}\relax }}{62}{figure.caption.74}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Kelas \textit {DataWriter}\relax }}{63}{figure.caption.75}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Perancangan Tampilan Awal\relax }}{64}{figure.caption.76}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Perancangan Tampilan Menyimpan \textit {Password}\relax }}{64}{figure.caption.77}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Perancangan Tampilan Mengembalikan \textit {Password}\relax }}{65}{figure.caption.78}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Perancangan Tampilan Mengembalikan \textit {Password} (2)\relax }}{65}{figure.caption.79}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Kelas \textit {Function}\relax }}{54}{figure.caption.68}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Kelas \textit {EquationSolver}\relax }}{55}{figure.caption.69}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Kelas \textit {DESEncryption}\relax }}{56}{figure.caption.70}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Kelas \textit {DataEncryptionStandard}\relax }}{57}{figure.caption.71}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Kelas \textit {Encryption}\relax }}{59}{figure.caption.72}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Kelas \textit {DESDecryption}\relax }}{61}{figure.caption.73}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Kelas \textit {DataReader}\relax }}{61}{figure.caption.74}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Kelas \textit {DataWriter}\relax }}{62}{figure.caption.75}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Perancangan Tampilan Awal\relax }}{63}{figure.caption.76}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Perancangan Tampilan Menyimpan \textit {Password}\relax }}{63}{figure.caption.77}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Perancangan Tampilan Mengembalikan \textit {Password}\relax }}{64}{figure.caption.78}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Perancangan Tampilan Mengembalikan \textit {Password} (2)\relax }}{64}{figure.caption.79}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram Kelas Rinci\relax }}{65}{figure.caption.66}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Tampilan antarmuka awal\relax }}{67}{figure.caption.80}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Tampilan antarmuka untuk menyimpan \textit {password}\relax }}{68}{figure.caption.81}
