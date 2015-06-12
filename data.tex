@@ -191,23 +191,23 @@ Salah satu metode otentikasi adalah \textit{password}. Kebutuhan akan sumber day
 
 Pada penelitian ini, dikembangkan mekanisme untuk mengembalikan $n$ \textit{password} dengan menyediakan $n$ pertanyaan keamanan. Pengguna sistem hanya perlu menjawab sebagian dari $n$ pertanyaan keamanan untuk mengembalikan $n$ \textit{password}. Mekanisme ini akan menggunakan metode \textit{secret sharing} Shamir dengan membagi setiap \textit{password} menjadi beberapa bagian dan membuat pertanyaan keamanan untuk masing-masing \textit{password}.
 
-Untuk mengetahui apakah mekanisme mengembalikan $n$ \textit{password} dengan menyediakan $n$ pertanyaan keamanan dengan menggunakan metode \textit{secret sharing} Shamir lebih baik dalam melindungi \textit{password}, maka dilakukan pembangunan perangkat lunak yang mengimplementasikan \textit{secret sharing} Shamir dan pengujian terhadap perangkat lunak yang dibangun. Pengujian dengan metode survei juga dilakukan untuk mengetahui pengaruh dari pertanyaan keamanan terhadap metode \textit{secret sharing} Shamir dalam mengembalikan $n$ \textit{password} ini.
+Untuk mengetahui apakah mekanisme ini lebih baik dalam melindungi \textit{password}, maka dilakukan pembangunan perangkat lunak yang mengimplementasikan \textit{secret sharing} Shamir dan pengujian terhadap perangkat lunak yang dibangun.
 
 Selain itu, untuk menjaga kerahasiaan password dan jawaban dari masing-masing pertanyaan keamanan, metode \textit{secret sharing} Shamir dikombinasikan dengan enkripsi dan fungsi \textit{hash}. Teknik enkripsi yang digunakan adalah \textit{Data Encryption Standard} dan algoritma fungsi \textit{hash} yang digunakan adalah \textit{Secure Hashing Algorithm} 512.
 
-Berdasarkan hasil pengujian, pertanyaan keamanan memiliki pengaruh terhadap mekanisme mengembalikan banyak \textit{password}. Dengan membuat pertanyaan keamanan yang tepat, \textit{password} bisa dengan mudah dikembalikan oleh pemilik \textit{password} dan juga bisa mempersulit pihak selain pemilik \textit{password} untuk mengembalikan \textit{password}.}
+Berdasarkan hasil pengujian, kualitas pertanyaan keamanan memiliki pengaruh terhadap mekanisme ini. Dengan membuat pertanyaan keamanan yang tepat, \textit{password} bisa dengan mudah dikembalikan oleh pemilik \textit{password} dan juga bisa mempersulit pihak selain pemilik \textit{password} untuk mengembalikan \textit{password}.}
 
-\abstrakENG{Authentication is the process of confirming the truth of an entity trying to access system resources. An entity can be human or system user and a system can be a social media system, email system, electronic banking system, and etc.
+\abstrakENG{Authentication is the process of confirming the identity of an entity trying to access system resources. An entity can be human or system user and a system can be a social media system, email system, and electronic banking system.
 
-Password is one of the techniques to authenticate an entity. The need of access to system resources does not rely on just a certain system only. To fulfill the need of access to system resources, an entity need to have many access to a lot of systems. By this way, an entity must have password for each system he/she has access to.
+Password is one of the techniques to authenticate an entity. The need of access to system resources does not rely on just a certain system only. To fulfill the need of access, an entity need to have many access to a lot of systems. By this way, an entity must have password for each system he/she has access to.
 
-In this research, a new mechanism is developed to retrieve $n$ passwords by creating $n$ security questions. This mechanism uses secret sharing Shamir to divide the each password into shares and creating $n$ security questions for $n$ passwords.
+In this research, a new mechanism is developed to retrieve $n$ passwords by creating $n$ security questions. Users only need to answer some of $n$ security questions to retrieve $n$ passwords. This mechanism uses Shamir's secret sharing to divide the each password into shares and creates $n$ security questions for $n$ passwords.
 
-To find out if this developed mechanism that retrieve $n$ passwords by providing $n$ security questions using secret sharing Shamir performs better in protecting passwords, we develop a software which implementing secret sharing Shamir. We also have some survey tests to find out security questions effect on secret sharing Shamir in retrieving $n$ passwords.
+To find out whether the developed mechanism performs better in protecting passwords, we develop a software which implements secret sharing Shamir. Several tests are also performed to ensure this software development succeed.
 
-Moreover, to ensure the secrecy of the passwords and the secrecy of each security question, secret sharing Shamir is combined with encryption technique and cryptographic hash function. Data Encryption Standard is used as encryption technique and Secure Hashing Algorithm 512 is used as cryptographic hash function.
+Moreover, to ensure the secrecy of the passwords and the secrecy of each security question, Shamir's secret sharing is combined with encryption technique and cryptographic hash function. Data Encryption Standard is used as the encryption technique and Secure Hashing Algorithm 512 is used as the cryptographic hash function.
 
-According to the test results, security questions have influence of retrieving many passwords mechanism. By creating appropriate security questions, passwords can be easily retrieved by passwords' owner and can make other parties difficult in retrieving passwords.} 
+According to the test results, security questions have influence on retrieving many passwords mechanism. By creating appropriate security questions, passwords can be easily retrieved by passwords' owner and can make other parties difficult in retrieving passwords.} 
 
 %=============================================================================
 
@@ -230,7 +230,7 @@ According to the test results, security questions have influence of retrieving m
 %=============================================================================
 % Persembahan : kepada siapa anda mempersembahkan skripsi ini ...
 %=============================================================================
-\untuk{Dipersembahkan untuk diri sendiri}
+\untuk{Dipersembahkan untuk Tuhan Yesus Kristus, kedua orang tua, dan semua pihak yang membantu dalam menyelesaikan tugas akhir ini}
 %=============================================================================
 
 %_____________________________________________________________________________
@@ -240,7 +240,18 @@ According to the test results, security questions have influence of retrieving m
 % Kata Pengantar: tempat anda menuliskan kata pengantar dan ucapan terima 
 % kasih kepada yang telah membantu anda bla bla bla ....  
 %=============================================================================
-\prakata{\lipsum[3]}
+\prakata{Puji syukur penulis panjatkan ke hadirat Tuhan Yesus Kritus, karena atas berkat dan rahmatNya, penulis dapat menyelesaikan tugas akhir ini yang berjudul "Analisa Metode Pengingat \textit{Password} Dengan \textit{Secret Sharing} Shamir". Penulis menyadari bahwa keberhasilan dalam pembuatan tugas akhir ini tidaklah lepas dari bantuan berbagai pihak baik secara langsung maupun tidak langsung. Oleh karena itu penulis ingin mengucapkan rasa terima kasih yang sebesar-besarnya kepada:
+
+\begin{enumerate}
+	\item Kedua orang tua dan keluarga yang terus mendukung dalam penyusunan tugas akhir ini.
+	\item Ibu Mariskha Tri Aditia yang telah membimbing dalam 1 tahun pembuatan tugas akhir ini.
+	\item Teman-teman terbaik saya Antonio, Jovan, Kevin, dan Steven sebagai rekan seperjuangan selama 4 tahun ini.
+	\item Antonio atas masukan ide-idenya dalam pembuatan tugas akhir ini.
+	\item Teman-teman IT 2011 yang selalu kompak bersama baik dalam kegiatan kuliah maupun non-kuliah
+	\item Semua pihak yang namanya tidak mungkin disebutkan satu persatu, yang telah memberikan kontribusi baik secara langsung maupun tidak dalam pembuatan tugas akhir ini.
+\end{enumerate}
+
+Akhir kata, penulis ingin menyampaikan permohonan maaf apabila terdapat kesalahan dalam tugas akhir ini. Semoga tugas akhir ini dapat berguna bagi yang membutuhkan.}
 %=============================================================================
 
 %_____________________________________________________________________________
